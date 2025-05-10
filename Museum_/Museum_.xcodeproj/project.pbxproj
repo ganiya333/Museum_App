@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75FE8212DCF0E2A00BD695C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B75FE8202DCF0E2A00BD695C /* Kingfisher */; };
+		B7FC47F92DCD1A64002F3A55 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B7FC47F82DCD1A64002F3A55 /* FirebaseFirestore */; };
+		B7FC47FB2DCD1A64002F3A55 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B7FC47FA2DCD1A64002F3A55 /* FirebaseStorage */; };
+		B7FC48062DCD21DB002F3A55 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B7FC48052DCD21DB002F3A55 /* FirebaseDatabase */; };
+		B7FC480A2DCD268D002F3A55 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B7FC48092DCD268D002F3A55 /* FirebaseFirestoreCombine-Community */; };
+		B7FC48C62DCE340A002F3A55 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B7FC48C52DCE340A002F3A55 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7FC47CB2DCCD7BB002F3A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FC47AC2DCCD7B9002F3A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FC47B32DCCD7B9002F3A55;
+			remoteInfo = Museum_;
+		};
+		B7FC47D52DCCD7BB002F3A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FC47AC2DCCD7B9002F3A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FC47B32DCCD7B9002F3A55;
+			remoteInfo = Museum_;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7FC47B42DCCD7B9002F3A55 /* Museum_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Museum_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FC47CA2DCCD7BB002F3A55 /* Museum_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Museum_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FC47D42DCCD7BB002F3A55 /* Museum_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Museum_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B7FC47DC2DCCD7BB002F3A55 /* Exceptions for "Museum_" folder in "Museum_" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B7FC47B32DCCD7B9002F3A55 /* Museum_ */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B7FC47B62DCCD7B9002F3A55 /* Museum_ */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B7FC47DC2DCCD7BB002F3A55 /* Exceptions for "Museum_" folder in "Museum_" target */,
+			);
+			path = Museum_;
+			sourceTree = "<group>";
+		};
+		B7FC47CD2DCCD7BB002F3A55 /* Museum_Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Museum_Tests;
+			sourceTree = "<group>";
+		};
+		B7FC47D72DCCD7BB002F3A55 /* Museum_UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Museum_UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7FC47B12DCCD7B9002F3A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75FE8212DCF0E2A00BD695C /* Kingfisher in Frameworks */,
+				B7FC48C62DCE340A002F3A55 /* SDWebImageSwiftUI in Frameworks */,
+				B7FC48062DCD21DB002F3A55 /* FirebaseDatabase in Frameworks */,
+				B7FC480A2DCD268D002F3A55 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				B7FC47F92DCD1A64002F3A55 /* FirebaseFirestore in Frameworks */,
+				B7FC47FB2DCD1A64002F3A55 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FC47C72DCCD7BB002F3A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FC47D12DCCD7BB002F3A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7FC47AB2DCCD7B9002F3A55 = {
+			isa = PBXGroup;
+			children = (
+				B7FC47B62DCCD7B9002F3A55 /* Museum_ */,
+				B7FC47CD2DCCD7BB002F3A55 /* Museum_Tests */,
+				B7FC47D72DCCD7BB002F3A55 /* Museum_UITests */,
+				B7FC47B52DCCD7B9002F3A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7FC47B52DCCD7B9002F3A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC47B42DCCD7B9002F3A55 /* Museum_.app */,
+				B7FC47CA2DCCD7BB002F3A55 /* Museum_Tests.xctest */,
+				B7FC47D42DCCD7BB002F3A55 /* Museum_UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7FC47B32DCCD7B9002F3A55 /* Museum_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FC47DD2DCCD7BB002F3A55 /* Build configuration list for PBXNativeTarget "Museum_" */;
+			buildPhases = (
+				B7FC47B02DCCD7B9002F3A55 /* Sources */,
+				B7FC47B12DCCD7B9002F3A55 /* Frameworks */,
+				B7FC47B22DCCD7B9002F3A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B7FC47B62DCCD7B9002F3A55 /* Museum_ */,
+			);
+			name = Museum_;
+			packageProductDependencies = (
+				B7FC47F82DCD1A64002F3A55 /* FirebaseFirestore */,
+				B7FC47FA2DCD1A64002F3A55 /* FirebaseStorage */,
+				B7FC48052DCD21DB002F3A55 /* FirebaseDatabase */,
+				B7FC48092DCD268D002F3A55 /* FirebaseFirestoreCombine-Community */,
+				B7FC48C52DCE340A002F3A55 /* SDWebImageSwiftUI */,
+				B75FE8202DCF0E2A00BD695C /* Kingfisher */,
+			);
+			productName = Museum_;
+			productReference = B7FC47B42DCCD7B9002F3A55 /* Museum_.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7FC47C92DCCD7BB002F3A55 /* Museum_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FC47E22DCCD7BB002F3A55 /* Build configuration list for PBXNativeTarget "Museum_Tests" */;
+			buildPhases = (
+				B7FC47C62DCCD7BB002F3A55 /* Sources */,
+				B7FC47C72DCCD7BB002F3A55 /* Frameworks */,
+				B7FC47C82DCCD7BB002F3A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FC47CC2DCCD7BB002F3A55 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B7FC47CD2DCCD7BB002F3A55 /* Museum_Tests */,
+			);
+			name = Museum_Tests;
+			packageProductDependencies = (
+			);
+			productName = Museum_Tests;
+			productReference = B7FC47CA2DCCD7BB002F3A55 /* Museum_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7FC47D32DCCD7BB002F3A55 /* Museum_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FC47E52DCCD7BB002F3A55 /* Build configuration list for PBXNativeTarget "Museum_UITests" */;
+			buildPhases = (
+				B7FC47D02DCCD7BB002F3A55 /* Sources */,
+				B7FC47D12DCCD7BB002F3A55 /* Frameworks */,
+				B7FC47D22DCCD7BB002F3A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FC47D62DCCD7BB002F3A55 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B7FC47D72DCCD7BB002F3A55 /* Museum_UITests */,
+			);
+			name = Museum_UITests;
+			packageProductDependencies = (
+			);
+			productName = Museum_UITests;
+			productReference = B7FC47D42DCCD7BB002F3A55 /* Museum_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7FC47AC2DCCD7B9002F3A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B7FC47B32DCCD7B9002F3A55 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B7FC47C92DCCD7BB002F3A55 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B7FC47B32DCCD7B9002F3A55;
+					};
+					B7FC47D32DCCD7BB002F3A55 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B7FC47B32DCCD7B9002F3A55;
+					};
+				};
+			};
+			buildConfigurationList = B7FC47AF2DCCD7B9002F3A55 /* Build configuration list for PBXProject "Museum_" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7FC47AB2DCCD7B9002F3A55;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B7FC47F72DCD1A64002F3A55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B7FC48C42DCE340A002F3A55 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				B75FE81F2DCF0E2A00BD695C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B7FC47B52DCCD7B9002F3A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7FC47B32DCCD7B9002F3A55 /* Museum_ */,
+				B7FC47C92DCCD7BB002F3A55 /* Museum_Tests */,
+				B7FC47D32DCCD7BB002F3A55 /* Museum_UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7FC47B22DCCD7B9002F3A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FC47C82DCCD7BB002F3A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FC47D22DCCD7BB002F3A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7FC47B02DCCD7B9002F3A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FC47C62DCCD7BB002F3A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FC47D02DCCD7BB002F3A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7FC47CC2DCCD7BB002F3A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FC47B32DCCD7B9002F3A55 /* Museum_ */;
+			targetProxy = B7FC47CB2DCCD7BB002F3A55 /* PBXContainerItemProxy */;
+		};
+		B7FC47D62DCCD7BB002F3A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FC47B32DCCD7B9002F3A55 /* Museum_ */;
+			targetProxy = B7FC47D52DCCD7BB002F3A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7FC47DE2DCCD7BB002F3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUR8UYD53X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Museum_/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganiya.Museum-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7FC47DF2DCCD7BB002F3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AUR8UYD53X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Museum_/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganiya.Museum-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7FC47E02DCCD7BB002F3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7FC47E12DCCD7BB002F3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7FC47E32DCCD7BB002F3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganiya.Museum-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum_.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Museum_";
+			};
+			name = Debug;
+		};
+		B7FC47E42DCCD7BB002F3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganiya.Museum-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum_.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Museum_";
+			};
+			name = Release;
+		};
+		B7FC47E62DCCD7BB002F3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganiya.Museum-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Museum_;
+			};
+			name = Debug;
+		};
+		B7FC47E72DCCD7BB002F3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganiya.Museum-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Museum_;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7FC47AF2DCCD7B9002F3A55 /* Build configuration list for PBXProject "Museum_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FC47E02DCCD7BB002F3A55 /* Debug */,
+				B7FC47E12DCCD7BB002F3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FC47DD2DCCD7BB002F3A55 /* Build configuration list for PBXNativeTarget "Museum_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FC47DE2DCCD7BB002F3A55 /* Debug */,
+				B7FC47DF2DCCD7BB002F3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FC47E22DCCD7BB002F3A55 /* Build configuration list for PBXNativeTarget "Museum_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FC47E32DCCD7BB002F3A55 /* Debug */,
+				B7FC47E42DCCD7BB002F3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FC47E52DCCD7BB002F3A55 /* Build configuration list for PBXNativeTarget "Museum_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FC47E62DCCD7BB002F3A55 /* Debug */,
+				B7FC47E72DCCD7BB002F3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B75FE81F2DCF0E2A00BD695C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		B7FC47F72DCD1A64002F3A55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		B7FC48C42DCE340A002F3A55 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B75FE8202DCF0E2A00BD695C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B75FE81F2DCF0E2A00BD695C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B7FC47F82DCD1A64002F3A55 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FC47F72DCD1A64002F3A55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B7FC47FA2DCD1A64002F3A55 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FC47F72DCD1A64002F3A55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		B7FC48052DCD21DB002F3A55 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FC47F72DCD1A64002F3A55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		B7FC48092DCD268D002F3A55 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FC47F72DCD1A64002F3A55 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		B7FC48C52DCE340A002F3A55 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7FC48C42DCE340A002F3A55 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B7FC47AC2DCCD7B9002F3A55 /* Project object */;
+}
